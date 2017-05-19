@@ -1,27 +1,27 @@
 {
-  "name": "modular-type",
-  "version": "1.0.0",
+  "name": "modular-media-queries",
+  "version": "0.0.1",
   "description": "CSS and SASS modular mini framework for creating typographic systems",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass scss/modular-.scss css/modular-.css",
-    "postbuild": "postcss css/modular-.css --use autoprefixer -d css/",
-    "minify": "postcss css/modular-.css --use cssnano -o css/modular-.min.css",
-    "stats": "cssstats css/modular-.css  ./css-stats.json",
+    "build": "node-sass scss/modular-media-queries.scss css/modular-media-queries.css",
+    "postbuild": "postcss css/modular-media-queries.css --use autoprefixer -d css/",
+    "minify": "postcss css/modular-media-queries.css --use cssnano -o css/modular-media-queries.min.css",
+    "stats": "cssstats css/modular-media-queries.css  ./css-stats.json",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nikolaswise/modular-.git"
+    "url": "git+https://github.com/nikolaswise/modular-media-queries.git"
   },
   "keywords": [
   ],
   "author": "Nikolas Wise",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nikolaswise/modular-/issues"
+    "url": "https://github.com/nikolaswise/modular-media-queries/issues"
   },
-  "homepage": "https://github.com/nikolaswise/modular-#readme",
+  "homepage": "https://github.com/nikolaswise/modular-media-queries#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.0",
     "cssnano": "^3.10.0",

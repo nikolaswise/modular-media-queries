@@ -1,0 +1,19 @@
+$small: 30rem !default;
+$large: 60rem !default;
+
+// This should be a diff module at some point
+@mixin not-small {
+  @media ( min-width: $small ) {
+    @content;
+  }
+}
+@mixin medium-break {
+  @media (min-width: $small) and (max-width: $large) {
+    @content;
+  }
+}
+@mixin large-break {
+  @media (min-width: $large) {
+    @content;
+  }
+}
